@@ -1820,6 +1820,16 @@
     text-align: center;
     max-width: 100%; }
 
+  .step-2-wrap {
+    height: 51%; }
+
+  .step-2_text {
+    width: 56%;
+    height: 90%; }
+
+  .step-2_img {
+    background-size: contain; }
+
   .step-3_modes {
     display: flex;
     flex-direction: row;
