@@ -1545,12 +1545,15 @@
     max-width: 100%; }
 
   .step-3-1_img {
+    background-size: contain;
     background-position-x: 50%; }
 
   .step-3-2_img {
+    background-size: contain;
     background-position-x: 50%; }
 
   .step-3-3_img {
+    background-size: contain;
     background-position-x: 50%; }
 
   .step-4_img {
