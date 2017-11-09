@@ -1494,6 +1494,125 @@
     background: black;
     height: 50px; } }
 /*FOR IE10+*/
+@media (min-width: 320px) and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  button {
+    cursor: pointer;
+    height: 60px;
+    background-color: #0082DA;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    width: 45%;
+    justify-content: center; }
+    button span {
+      padding-left: 10px;
+      padding-top: 3px; }
+
+  .product-wrap_content {
+    height: 400px; }
+
+  .product-img {
+    height: 90%; }
+
+  .line-wraper {
+    display: block; }
+
+  .des-font {
+    color: #717670;
+    font-size: 17px;
+    max-width: 100%;
+    text-align: left; }
+
+  .instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    max-width: 100%; }
+
+  .step-3_modes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px;
+    margin-top: -20px;
+    max-width: 100%; }
+
+  .step-3-1_text {
+    width: 50%;
+    height: 90%; }
+
+  .step-3-1_img {
+    flex: 1 1 38%;
+    height: 100%;
+    display: flex;
+    background-image: url(images/bg3-step-3-1.jpg);
+    background-size: justify;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+  .step-3-2_text {
+    width: 50%;
+    height: 90%; }
+
+  .step-3-2_img {
+    flex: 1 1 40%;
+    height: 100%;
+    display: flex;
+    background-image: url(images/bg3-step-3-2.jpg);
+    background-size: justify;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+  .step-3-3_text {
+    width: 50%;
+    height: 90%; }
+
+  .step-3-3_img {
+    flex: 1 1 40%;
+    height: 100%;
+    display: flex;
+    background-image: url(images/bg3-step-3-3.jpg);
+    background-size: justify;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+  .step-4_text {
+    width: 50%;
+    height: 90%; }
+
+  .step-4_img {
+    flex: 1 1 40%;
+    height: 100%;
+    display: flex;
+    background-image: url(images/bg3-step-4.jpg);
+    background-size: justify;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+  .step-4-wrap {
+    height: 100%; }
+
+  .step-3-2-wrap {
+    height: 60%; }
+
+  .step-1 {
+    max-width: 100%; }
+
+  .step-2 {
+    max-width: 100%; }
+
+  .step-3 {
+    max-width: 100%; }
+
+  .step-4 {
+    max-width: 100%; } }
 @media (min-width: 768px) and (max-width: 1139px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   button {
     cursor: pointer;
