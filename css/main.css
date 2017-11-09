@@ -127,7 +127,7 @@
   .step-2_img {
     height: 150px;
     background-image: url(images/bg-step-2.png);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
 
@@ -206,19 +206,19 @@
   .step-3-1_img {
     height: 150px;
     background-image: url(images/bg-step-3-1.png);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat; }
 
   .step-3-2_img {
     height: 150px;
     background-image: url(images/bg-step-3-2.png);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat; }
 
   .step-3-3_img {
     height: 150px;
     background-image: url(images/bg-step-3-3.png);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat; }
 
   .step-3_link {
@@ -264,7 +264,7 @@
   .step-4_img {
     height: 150px;
     background-image: url(images/bg-step-4.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat; }
 
   .product {
