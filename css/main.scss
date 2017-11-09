@@ -1571,13 +1571,45 @@ $bg-button:#0082DA;
 	.instruction{
 		height:400px;
 	}
+	.imstruction-button{
+		flex:1 1 80%;
+	}
 	.step-1{
 		height:150px;
 	}
 	.step-2_text{
 		margin-bottom:15px;
 	}
-	
+	.step-2-wrap{
+		height:80%;
+	}
+	.step-2{
+		height:480px;
+	}
+	.step-3_article{
+		height:75px;
+	}
+	.step-3_modes div{
+		width:50%;
+	}
+	.step-3-1{
+		height:360px;
+	}
+	.step-3-1_text{
+		margin-bottom:20px;
+	}
+	.step-3-2{
+		height:360px;
+	}
+	.step-3-2_text{
+		margin-bottom:20px;
+	}
+	.step-3-3{
+		height:360px;
+	}
+	.step-3-3_text{
+		margin-bottom:20px;
+	}
 	button{
 		cursor:pointer;
 		height:60px;
