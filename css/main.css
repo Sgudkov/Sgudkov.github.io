@@ -1655,7 +1655,7 @@
     height: 52%; }
 
   .step-4-wrap {
-    height: 82%; }
+    height: 83%; }
 
   .step-3-1_text {
     width: 50%;
@@ -1762,7 +1762,7 @@
     background-position: center; }
 
   .step-4_text {
-    width: 50%;
+    width: 46%;
     height: 90%; }
 
   .step-4_img {
@@ -1773,9 +1773,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
-
-  .step-4-wrap {
-    height: 100%; }
 
   .step-1 {
     max-width: 100%; }
