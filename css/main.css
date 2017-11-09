@@ -1545,7 +1545,7 @@
     max-width: 100%; }
 
   .step-4_img {
-    background-size: justify; }
+    background-size: contain; }
 
   .step-4_text {
     margin-bottom: 20px; }
@@ -1557,7 +1557,7 @@
     height: 50%; }
 
   .product-wrap_content {
-    height: 510px;
+    height: 1000px;
     text-align: center;
     width: 70%;
     margin: auto;
