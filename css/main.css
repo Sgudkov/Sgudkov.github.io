@@ -1673,18 +1673,6 @@
     width: 46%;
     height: 90%; }
 
-  .step-3-1_img {
-    background-size: contain; }
-
-  .step-3-2_img {
-    background-size: contain; }
-
-  .step-3-3_img {
-    background-size: contain; }
-
-  .step-4_img {
-    background-size: contain; }
-
   button {
     cursor: pointer;
     height: 60px;
@@ -1743,7 +1731,7 @@
     height: 100%;
     display: flex;
     background-image: url(images/bg3-step-3-1.jpg);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
 
@@ -1756,7 +1744,7 @@
     height: 100%;
     display: flex;
     background-image: url(images/bg3-step-3-2.jpg);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
 
@@ -1769,7 +1757,7 @@
     height: 100%;
     display: flex;
     background-image: url(images/bg3-step-3-3.jpg);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
 
@@ -1782,15 +1770,12 @@
     height: 100%;
     display: flex;
     background-image: url(images/bg3-step-4.jpg);
-    background-size: justify;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
 
   .step-4-wrap {
     height: 100%; }
-
-  .step-3-2-wrap {
-    height: 60%; }
 
   .step-1 {
     max-width: 100%; }
