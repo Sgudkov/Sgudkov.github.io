@@ -1495,6 +1495,15 @@
     height: 50px; } }
 /*FOR IE10+*/
 @media (min-width: 320px) and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .instruction {
+    height: 400px; }
+
+  .step-1 {
+    height: 150px; }
+
+  .step-2_text {
+    margin-bottom: 15px; }
+
   button {
     cursor: pointer;
     height: 60px;
@@ -1543,58 +1552,6 @@
     height: 60px;
     margin-top: -20px;
     max-width: 100%; }
-
-  .step-3-1_text {
-    width: 50%;
-    height: 90%; }
-
-  .step-3-1_img {
-    flex: 1 1 38%;
-    height: 100%;
-    display: flex;
-    background-image: url(images/bg3-step-3-1.jpg);
-    background-size: justify;
-    background-repeat: no-repeat;
-    background-position: center; }
-
-  .step-3-2_text {
-    width: 50%;
-    height: 90%; }
-
-  .step-3-2_img {
-    flex: 1 1 40%;
-    height: 100%;
-    display: flex;
-    background-image: url(images/bg3-step-3-2.jpg);
-    background-size: justify;
-    background-repeat: no-repeat;
-    background-position: center; }
-
-  .step-3-3_text {
-    width: 50%;
-    height: 90%; }
-
-  .step-3-3_img {
-    flex: 1 1 40%;
-    height: 100%;
-    display: flex;
-    background-image: url(images/bg3-step-3-3.jpg);
-    background-size: justify;
-    background-repeat: no-repeat;
-    background-position: center; }
-
-  .step-4_text {
-    width: 50%;
-    height: 90%; }
-
-  .step-4_img {
-    flex: 1 1 40%;
-    height: 100%;
-    display: flex;
-    background-image: url(images/bg3-step-4.jpg);
-    background-size: justify;
-    background-repeat: no-repeat;
-    background-position: center; }
 
   .step-4-wrap {
     height: 100%; }
