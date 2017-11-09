@@ -1,0 +1,237 @@
+$(document).ready(function(){
+	ScreenWidth = screen.width;
+	function screenMiddle(){
+		if(ScreenWidth>767 && ScreenWidth<1140){
+			$("body").load("page2.html");
+		}
+	};
+	function screenLarge(){
+		if(ScreenWidth>1139){
+			$("body").load("page3.html");
+		}
+	};
+	screenMiddle();
+	screenLarge();
+	$("body").on('click','.menu',function(){
+			var col = ($(this).attr("id"));
+			if(col=="full-mod"&&ScreenWidth<768 ){
+				$(".step-3_easy").css({
+					"background":"#F7F7F7",
+					"font-weight":"normal"
+				});
+				$(".step-3_full").css({
+					"background":"#EFEFEF",
+					"font-weight":"bold"
+				});
+				$(".step-3").css({
+					"display":"none"
+				});
+				$(".step-3_pages").css({
+					"display":"flex"
+				});
+			}else if (col=="easy-mod"&&ScreenWidth<768){
+				$(".step-3_easy").css({
+					"background":"#EFEFEF",
+					"font-weight":"bold"
+				});
+				$(".step-3_full").css({
+					"background":"#F7F7F7",
+					"font-weight":"normal"
+				});
+				
+				$(".step-3").css({
+					"display":"flex"
+				});
+				$(".step-3_pages").css({
+					"display":"none"
+				});
+			}
+	});
+	$("#link_up").click(function(){
+			var col = ($(this).attr("id"));
+			$(".step-3_easy").css({
+					"background":"#F7F7F7",
+					"font-weight":"normal"
+				});
+				$(".step-3_full").css({
+					"background":"#EFEFEF",
+					"font-weight":"bold"
+				});
+				$(".step-3").css({
+					"display":"none"
+				});
+				$(".step-3_pages").css({
+					"display":"flex"
+				});
+	});
+	$("#link_up-pages").click(function(){
+			var col = ($(this).attr("id"));
+				$(".step-3_easy").css({
+					"background":"#EFEFEF",
+					"font-weight":"bold"
+				});
+				$(".step-3_full").css({
+					"background":"#F7F7F7",
+					"font-weight":"normal"
+				});
+				$(".step-3").css({
+					"display":"flex"
+				});
+				$(".step-3_pages").css({
+					"display":"none"
+				});
+	});
+	$("body").on('click','.menu',function(){
+		var col = ($(this).attr("id"));
+		if(col=="full-mod"&&ScreenWidth>767&&ScreenWidth<1140){
+			$(".step-3_full").css({
+				"background":"#0082DA",
+				"color":"white",
+				"font-weight":"bold"
+			});
+			$(".step-3_pages").css({
+				"display":"block"
+			});
+			$(".step-3").css({
+				"display":"none"
+			});
+			$(".triangle-full").css({
+				"display":"block",
+			});
+			$(".triangle-easy").css({
+				"display":"none",
+			});
+			$(".step-3_easy").css({
+				"background":"white",
+				"color":"#0082DA",
+				"font-weight":"normal"
+			});
+		}else if(col="easy-mod"&&ScreenWidth>767&&ScreenWidth<1140){
+			$(".step-3_full").css({
+				"background":"white",
+				"color":"#0082DA",
+				"font-weight":"normal"
+			});
+			$(".step-3_pages").css({
+				"display":"none"
+			});
+			$(".triangle-full").css({
+				"display":"none",
+			});
+			$(".triangle-easy").css({
+				"display":"block",
+			});
+			$(".step-3").css({
+				"display":"block"
+			});
+			$(".step-3_easy").css({
+				"background":"#0082DA",
+				"color":"white",
+				"font-weight":"bold"
+			});
+		}
+	});
+	$("body").on('click','.menu',function(){
+		var col = ($(this).attr("id"));
+		if(col=="full-mod"&&ScreenWidth>1139){
+			$(".step-3_full").css({
+				"background":"#0082DA",
+				"color":"white",
+				"font-weight":"bold"
+			});
+			$(".step-3_pages").css({
+				"display":"block"
+			});
+			$(".step-3").css({
+				"display":"none"
+			});
+			$(".triangle-full").css({
+				"display":"block",
+			});
+			$(".triangle-easy").css({
+				"display":"none",
+			});
+			$(".step-3_easy").css({
+				"background":"white",
+				"color":"#0082DA",
+				"font-weight":"normal"
+			});
+		}else if(col="easy-mod"&&ScreenWidth>1139){
+			$(".step-3_full").css({
+				"background":"white",
+				"color":"#0082DA",
+				"font-weight":"normal"
+			});
+			$(".step-3_pages").css({
+				"display":"none"
+			});
+			$(".triangle-full").css({
+				"display":"none",
+			});
+			$(".triangle-easy").css({
+				"display":"block",
+			});
+			$(".step-3").css({
+				"display":"block"
+			});
+			$(".step-3_easy").css({
+				"background":"#0082DA",
+				"color":"white",
+				"font-weight":"bold"
+			});
+		}
+	});
+	
+	$("body").on('click','.step-3_link a',function(){
+		var col = ($(this).attr("id"));
+		if(col=="link_up-pages"&&ScreenWidth>1139){
+			$(".step-3_full").css({
+				"background":"white",
+				"color":"#0082DA",
+				"font-weight":"normal"
+			});
+			$(".step-3_pages").css({
+				"display":"none"
+			});
+			$(".triangle-full").css({
+				"display":"none",
+			});
+			$(".triangle-easy").css({
+				"display":"block",
+			});
+			$(".step-3").css({
+				"display":"block"
+			});
+			$(".step-3_easy").css({
+				"background":"#0082DA",
+				"color":"white",
+				"font-weight":"bold"
+			});
+		}else if(col="link_up"&&ScreenWidth>1139){
+			$(".step-3_full").css({
+				"background":"#0082DA",
+				"color":"white",
+				"font-weight":"bold"
+			});
+			$(".step-3_pages").css({
+				"display":"block"
+			});
+			$(".step-3").css({
+				"display":"none"
+			});
+			$(".triangle-full").css({
+				"display":"block",
+			});
+			$(".triangle-easy").css({
+				"display":"none",
+			});
+			$(".step-3_easy").css({
+				"background":"white",
+				"color":"#0082DA",
+				"font-weight":"normal"
+			});
+		}
+	});
+	
+});
+		
