@@ -1636,6 +1636,7 @@ $bg-button:#0082DA;
 	.step-4_text{
 		margin-bottom:20px;
 	}
+	
 	.product{
 		height:800px;
 	}
@@ -1650,6 +1651,12 @@ $bg-button:#0082DA;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
+	}
+	.guieds{
+		height:450px;
+	}
+	.questions-btn div {
+		height: 140px;
 	}
 
 	button{

@@ -1578,6 +1578,12 @@
     flex-direction: column;
     justify-content: space-around; }
 
+  .guieds {
+    height: 450px; }
+
+  .questions-btn div {
+    height: 140px; }
+
   button {
     cursor: pointer;
     height: 60px;
