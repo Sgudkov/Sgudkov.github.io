@@ -1511,6 +1511,9 @@
       padding-left: 10px;
       padding-top: 3px; }
 
+  .line-wraper {
+    display: block; }
+
   .des-font {
     color: #717670;
     font-size: 17px;
@@ -1533,10 +1536,10 @@
     align-items: flex-start;
     height: 60px;
     margin-top: -20px;
-    max-width: 40%; }
+    max-width: 100%; }
 
   .step-3-1_text {
-    width: 22%;
+    width: 50%;
     height: 90%; }
 
   .step-3-1_img {
@@ -1546,10 +1549,10 @@
     background-image: url(images/bg3-step-3-1.jpg);
     background-size: justify;
     background-repeat: no-repeat;
-    background-position: left; }
+    background-position: center; }
 
   .step-3-2_text {
-    width: 22%;
+    width: 50%;
     height: 90%; }
 
   .step-3-2_img {
@@ -1559,10 +1562,10 @@
     background-image: url(images/bg3-step-3-2.jpg);
     background-size: justify;
     background-repeat: no-repeat;
-    background-position: left; }
+    background-position: center; }
 
   .step-3-3_text {
-    width: 22%;
+    width: 50%;
     height: 90%; }
 
   .step-3-3_img {
@@ -1572,10 +1575,10 @@
     background-image: url(images/bg3-step-3-3.jpg);
     background-size: justify;
     background-repeat: no-repeat;
-    background-position: left; }
+    background-position: center; }
 
   .step-4_text {
-    width: 22%;
+    width: 50%;
     height: 90%; }
 
   .step-4_img {
@@ -1585,6 +1588,6 @@
     background-image: url(images/bg3-step-4.jpg);
     background-size: justify;
     background-repeat: no-repeat;
-    background-position: left; } }
+    background-position: center; } }
 
 /*# sourceMappingURL=main.css.map */
