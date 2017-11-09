@@ -1588,7 +1588,7 @@ $bg-button:#0082DA;
 	.des-font {
     color: #717670;
     font-size: 17px;
-    width: 58%;
+    max-width: 100%;
     text-align: left;
 	}	
 	.instruction {
@@ -1620,6 +1620,7 @@ $bg-button:#0082DA;
 		background-image: url(images/bg3-step-3-1.jpg);
 		background-size: justify;
 		background-repeat: no-repeat;
+		background-position:left;
 	}
 	.step-3-2_text {
 		width: 22%;
@@ -1632,6 +1633,7 @@ $bg-button:#0082DA;
 		background-image: url(images/bg3-step-3-2.jpg);
 		background-size: justify;
 		background-repeat: no-repeat;
+		background-position:left;
 	}
 	.step-3-3_text {
 		width: 22%;
@@ -1644,6 +1646,7 @@ $bg-button:#0082DA;
 		background-image: url(images/bg3-step-3-3.jpg);
 		background-size: justify;
 		background-repeat: no-repeat;
+		background-position:left;
 	}
 	.step-4_text {
 		width: 22%;
@@ -1656,6 +1659,7 @@ $bg-button:#0082DA;
 		background-image: url(images/bg3-step-4.jpg);
 		background-size: justify;
 		background-repeat: no-repeat;
+		background-position:left;
 	}
 
 
