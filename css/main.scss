@@ -1724,6 +1724,20 @@ $bg-button:#0082DA;
 	}
 }
 @media (min-width: 768px) and (max-width: 1139px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+	.step-3-1-wrap {
+		height: 60%;
+	}
+	.step-3-2-wrap {
+		height: 65%;
+	}
+	.step-3-3-wrap {
+		height: 52%;
+	}
+	.step-4-wrap {
+		height: 82%;
+	}
+
+	
 	.step-3-1_text {
 		width: 50%;
 		height: 90%;
@@ -1736,6 +1750,11 @@ $bg-button:#0082DA;
 		width: 50%;
 		height: 90%;
 	}
+	.step-4_text {
+		width: 46%;
+		height: 90%;
+	}
+
 	.step-3-1_img{
 		background-size:contain;
 		
